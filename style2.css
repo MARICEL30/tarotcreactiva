@@ -534,6 +534,7 @@ article p::first-letter {
     font-family: 'Basic', sans-serif;
     outline: transparent;
     opacity: .9;
+    color: #fff;
  }
 
 
