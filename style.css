@@ -253,7 +253,7 @@ h2 {
 
 .pattern-dots-md {
 
-    width: 250px;
+        width: 250px;
 	height: 250px;
 	background-color: #9E0059;
 	border-radius: 10px;
@@ -265,7 +265,7 @@ h2 {
 
 .article-pic {
 
-    width: 250px;
+       width: 250px;
 	height: 250px;
 	border-radius: 10px;
 	transform: translate( -55px, 15px);
@@ -299,7 +299,7 @@ h2 {
 
 #card p {
 
-	 position: absolute;
+    position: absolute;
     bottom: 23px;
     width: 100%;
     padding: 15px;
@@ -321,6 +321,7 @@ h2 {
 	background-size: cover;
 }
 
+
 .card-empatia {
 
 	background-image: url("images/empatía.png");
@@ -328,6 +329,7 @@ h2 {
 	background-position: center;
 	background-size: cover;
 }
+
 
 
 .card-intuicion {
@@ -353,12 +355,13 @@ h3 {
 
 h4, h5 {
 
-	font-family: 'Anton', sans-serif;
-	font-size: 1.1rem;
+   font-family: 'Anton', sans-serif;
+   font-size: 1.1rem;
    letter-spacing: .3rem;
    text-align: center;
    font-weight: lighter;
 }
+
 
 .services-span {
 	position:  relative;
@@ -753,9 +756,9 @@ h6:after {
    background-color: #fff;
    position:  fixed;
    z-index:  8;
-   box-shadow:  0 4px 8px 3px rgba(255, 189, 0, .4);
-   -moz-box-shadow: 0 4px 8px 3px rgba(255, 189, 0, .4);
-   -webkit-box-shadow: 0 4px 8px 3px rgba(255, 189, 0, .4);
+   box-shadow: 0 4px 8px 3px rgba(169, 169, 169, .4);
+   -moz-box-shadow: 0 4px 8px 3px rgba(169, 169, 169, .4);
+   -webkit-box-shadow: 0 4px 8px 3px rgba(169, 169, 169, .4);
     
 }
 
