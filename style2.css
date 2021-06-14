@@ -525,6 +525,16 @@ article p::first-letter {
   letter-spacing: 3px;
 }
 
+	
+ .draw-horiz {
+
+  display:  block;
+  position:  absolute;
+  transform: translate(200px, 80rem);
+  left: 0;
+  
+}
+	
 
 .footer-info {
 
