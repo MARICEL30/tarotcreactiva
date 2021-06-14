@@ -418,9 +418,9 @@ input {
    background-color: #fff;
    position:  fixed;
    z-index:  8;
-   box-shadow:  0 4px 8px 3px rgba(255, 189, 0, .4);
-   -moz-box-shadow: 0 4px 8px 3px rgba(255, 189, 0, .4);
-   -webkit-box-shadow: 0 4px 8px 3px rgba(255, 189, 0, .4);
+   box-shadow: 0 4px 8px 3px rgba(169, 169, 169, .4);
+   -moz-box-shadow: 0 4px 8px 3px rgba(169, 169, 169, .4);
+   -webkit-box-shadow: 0 4px 8px 3px rgba(169, 169, 169, .4);
     
 }
 
