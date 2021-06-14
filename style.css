@@ -814,10 +814,10 @@ li a {
 
 .hero-section {
 
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	align-items: space-between;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: space-between;
     margin: 30px auto;
     width: 900px;
     height:  80vh;
@@ -1093,6 +1093,7 @@ form {
     font-family: 'Basic', sans-serif;
     outline: transparent;
     opacity: .9;
+    color: #fff;
  }
 
 
