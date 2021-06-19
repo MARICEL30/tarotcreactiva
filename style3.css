@@ -17,6 +17,15 @@ body {
   }
 
 
+:root {
+
+--main-color: #73D2DE;
+--secondary-color: #FFBC42;
+--last-color: #8F2D56;
+}
+
+
+
 .logo-pic {
   width: 80px;
   height: 80px;
@@ -50,8 +59,8 @@ body {
 
 #hamburger-btn:hover {
    transform: scale(1.10);
-   color: #FFBD00;
-}
+   color:var(--main-color);
+ }
 
 
 
@@ -66,7 +75,7 @@ body {
   right: 0;
   width: 55%;
   height: 100vh;
-  background-color: rgba(158, 0, 89, .7);
+  background-color: rgba(158, 0, 89, .9);
   overflow: hidden;
   transform: translateX(100%);
   transition: all 1s ease-in-out;
@@ -137,7 +146,7 @@ li a {
      position:  absolute;
      top: 0;
      left: 0;
-     background-color: #FFBD00;
+     background-color: var(--secondary-color); 
      border-radius: 10px;
 }
 
@@ -178,7 +187,7 @@ li a {
   font-family: 'Fira Sans', sans-serif;
   font-size: 1.1rem;
   color: #000;
-  font-weight:  600;
+  font-weight: 600;
 }
 
 
@@ -214,8 +223,8 @@ button {
   height: 60px;
   border: none;
   outline: none;
-  background-color: #9E0059;
-  box-shadow: inset 0 0 0 0 #FFBD00;
+  background-color: var(--last-color);
+  box-shadow: inset 0 0 0 0 var(--main-color);
   transition: ease-out 0.3s;
   
 }
@@ -223,7 +232,7 @@ button {
 
 .submit-btn:hover {
 
-  box-shadow: inset 150px 0 0 0 #FFBD00;
+  box-shadow: inset 150px 0 0 0 var(--main-color);
   cursor: pointer;
   color: #000;
 }
@@ -418,7 +427,7 @@ input {
    background-color: #fff;
    position:  fixed;
    z-index:  8;
-   box-shadow: 0 4px 8px 3px rgba(169, 169, 169, .4);
+    box-shadow: 0 4px 8px 3px rgba(169, 169, 169, .4);
    -moz-box-shadow: 0 4px 8px 3px rgba(169, 169, 169, .4);
    -webkit-box-shadow: 0 4px 8px 3px rgba(169, 169, 169, .4);
     
@@ -499,7 +508,7 @@ li a {
      position:  absolute;
      top: 0;
      left: 0;
-     background-color: #FFBD00;
+     background-color: var(--secondary-color);
      border-radius: 10px;
 }
 
