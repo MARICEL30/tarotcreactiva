@@ -328,6 +328,11 @@ h6::after {
 }
 
 
+.mini-containera p {
+
+	margin:  25px auto;
+}
+
 
 .mini-containerb {
 
@@ -338,6 +343,10 @@ h6::after {
 }
 
 
+.mini-containerb p {
+
+	margin:  25px auto;
+}
 
 
 @media only screen and (min-width: 768px) {
@@ -401,7 +410,15 @@ input {
 .footer-info {
 
   margin-top: 990px;
+	
 }
+	
+	
+.mini-containerb p {
+
+	margin:  35px auto;
+  }
+	
 
 }
 
@@ -513,21 +530,10 @@ li a {
 }
 
 
+  .mini-containerb p {
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	margin:  35px auto;
+}
 
 
  }
