@@ -360,8 +360,8 @@ body {
 
 
 .logo-pic {
-  width: 90px;
-  height: 90px;
+  width: 80px;
+  height: 80px;
   margin: 20px 0 0 50px;
 
 }
@@ -427,8 +427,8 @@ input {
 
 
 .logo-pic {
-  width: 95px;
-  height: 95px;
+  width: 80px;
+  height: 80px;
   margin: 5.5px 0 5.5px  20px;
 }
 
@@ -464,7 +464,7 @@ input {
   position: absolute;
   top: 0;
   right: 0;
-  height: auto;
+  height: 90px;
   width: 30%;
   z-index: 10;
   background-color: #fff;
