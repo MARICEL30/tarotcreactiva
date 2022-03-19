@@ -1182,13 +1182,16 @@ form {
   flex-grow: 1;
   }
 
+	
+	
+	
   input {
 
 	border: none;
 	border-bottom: 1px solid grey;
 	padding: 0;
 	height: 100px;
-	width: 250px;
+	width: 290px;
 	margin: 10px;
 }
 
