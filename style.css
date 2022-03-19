@@ -1178,7 +1178,7 @@ form {
 
   height:  80vh;
   width: 50%;
-  margin: 0px 20px 0px 400px;
+  margin: 0px 20px 0px 500px;
   flex-grow: 1;
   }
 
@@ -1202,7 +1202,7 @@ form {
   
   height: 80vh; 
   width: 400px;
-  margin: 0px 400px 0px 2px;
+  margin: 0px 500px 0px 20px;
   flex-grow: 1;
   
 }
