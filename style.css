@@ -885,10 +885,10 @@ li a {
 
 .hero-section {
 
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	align-items: space-between;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: space-between;
     margin: 30px auto;
     width: 900px;
     height:  90vh;
@@ -1170,7 +1170,7 @@ section {
 	align-content: center;
 	margin:  0 auto;
 	gap: 40px;
-	max-width:  100%;
+	min-width:  100%;
 }
 
 
