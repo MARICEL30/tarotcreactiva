@@ -804,7 +804,9 @@ h6:after {
 
 @media only screen and (min-width: 1000px) {
 
-
+body {
+	min-width: 100%;
+}
 
 .logo-pic {
   width: 80px;
